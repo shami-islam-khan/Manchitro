@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:padding="20dp"
+    android:background="@color/bd_green"
+    android:layout_height="180dp">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="0dp"
+        android:backgroundTint="#1B1A16">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/mukti_profile"
+            android:padding="0dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doraemon"
+        android:textColor="@color/bd_yellow"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="doraemon@gmail.com"
+        android:textColor="@color/bd_red"
+        android:textStyle="bold"
+        android:textSize="13sp"/>
+
+</LinearLayout>
